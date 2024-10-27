@@ -6,14 +6,14 @@
 //==================================================================
 void indicate_adc_val(uint16_t val){
 
-if (val > 2048) gpio_set(GPIOD, GPIO13)
-else {gpio_clear (GPIOD, GPIO13)};
+if (val > 2048) gpio_set(GPIOD, GPIO13);
+else gpio_clear (GPIOD, GPIO13);
 
-if (val > 1024) gpio_set(GPIOD, GPIO14)
-else {gpio_clear (GPIOD, GPIO14)};
+if (val > 1024) gpio_set(GPIOD, GPIO14);
+else gpio_clear (GPIOD, GPIO14);
 
-if (val > 512) gpio_set(GPIOD, GPIO15)
-else {gpio_clear (GPIOD, GPIO15)};
+if (val > 512) gpio_set(GPIOD, GPIO15);
+else gpio_clear (GPIOD, GPIO15);
 
 }
 //==================================================================

@@ -16,5 +16,5 @@
 - Прошивка МК:
     cmake --install build 
 
-- Вход ADC - PA0
-- Выход DAC - PA5
+      Вход ADC - PA0
+      Выход DAC - PA5
